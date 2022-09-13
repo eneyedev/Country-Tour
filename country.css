@@ -1,0 +1,99 @@
+.h3 {
+    font-weight: 600;
+}
+
+
+.btn1{
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid var(--very-dark-blue-light-mode-text);
+    outline: none;
+    padding: .5rem;
+    color: black;
+    width: 50%;
+    border-radius: .4rem;
+}
+
+
+.btn1-dark{
+    background: var(--dark-blue-dark-mode-elements);
+    cursor: pointer;
+    color: white;
+    border: 0;
+    outline: none;
+    padding: .5rem;
+    width: 50%;
+    border-radius: .4rem;
+}
+
+.btn2 {
+    background: white;
+    cursor: pointer;
+    border: none;
+    display: block;
+    outline: none;
+    color: black;
+    padding: .5rem;
+    width: 30%;
+    text-align: center;
+    border-radius: .4rem;
+}
+
+.btn2-dark {
+    background: var(--dark-blue-dark-mode-elements);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    display: block;
+    padding: .5rem;
+    width: 30%;
+    text-align: center;
+    border-radius: .4rem;
+}
+
+.back {
+    margin-top: 8rem;
+}
+
+.back-dark {
+    margin-top: 8rem;
+}
+
+.country {
+    width: 100%;
+    box-shadow: 0 0 0;
+    max-width: 90%;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    background: none;
+}
+
+.dark-color {
+    color: white;
+}
+
+.country-img {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.country-info p,
+.country-info2 p {
+    margin-top: 1.3rem;
+}
+
+.country-info2 {
+    margin-top: 3rem;
+}
+
+.border-countries {
+    margin-top: 3rem;
+}
+
+.border-countries-flex {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 2rem;
+}
