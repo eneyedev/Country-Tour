@@ -97,3 +97,45 @@
     margin-top: 1.5rem;
     gap: 2rem;
 }
+
+@media screen and (min-width: 1440px) {
+
+    .country {
+        display: flex;
+        gap: 7rem;
+        align-items: center;
+    }
+
+
+    .country-img {
+        width: 100%;
+        max-width: 50%;
+        height: 50vh;
+    }
+
+
+    .country-info-flex {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .country-info2 {
+        margin-top: 0;
+    }
+
+    .border-countries {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .border-countries-flex {
+        margin-top: 0;
+    }
+
+    .btn1 {
+        width: 100%;
+    }
+
+}
